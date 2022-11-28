@@ -1,5 +1,5 @@
 {
-  "name": "node-red-nodecolor-contrib-azure-iot-hub",
+  "name": "@nodecolor/node-red-contrib-azure-iot-hub",
   "description": "Connector to azure on Node-Red",
   "version": "0.5.2",
   "license": "Apache-2.0",
