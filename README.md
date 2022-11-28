@@ -1,4 +1,4 @@
-# node-red-nodecolor-azure-iot-hub
+# @nodecolor/node-red-contrib-azure-iot-hub
 
 Security patch and update for "node-red-contrib-azure-iot-hub" see https://github.com/lcarli/NodeRedIoTHub
 
