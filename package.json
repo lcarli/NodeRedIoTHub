@@ -28,16 +28,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nodecolor/node-red-contrib-azure-iot-hub"
+    "url": "git+https://github.com/nodecolor/node-red-contrib-azure-iot-hub.git"
   },
-  "author": {
-    "name": "Lucas Humenhuk",
-    "email": "luhumenh@microsoft.com",
-    "url": "https://github.com/nodecolor/node-red-contrib-azure-iot-hub"
-  },
+  "author": "Lucas Humenhuk <luhumenh@microsoft.com> (https://github.com/nodecolor/node-red-contrib-azure-iot-hub)",
   "contributors": [
     "Olli Kasari <8488349+kasarol@users.noreply.github.com>",
     "Lucas Humenhuk <luhumenh@microsoft.com>",
     "nodecolor <https://node-professional.com/>"
-  ]
+  ],
+  "bugs": {
+    "url": "https://github.com/nodecolor/node-red-contrib-azure-iot-hub/issues"
+  },
+  "main": "azureiothub.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
