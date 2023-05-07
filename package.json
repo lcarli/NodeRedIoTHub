@@ -1,7 +1,7 @@
 {
   "name": "@nodecolor/node-red-contrib-azure-iot-hub",
   "description": "Connector to azure on Node-Red",
-  "version": "0.5.2",
+  "version": "0.5.3",
   "license": "Apache-2.0",
   "homepage": "https://node-professional.com/",
   "engines": {
