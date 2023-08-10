@@ -8,10 +8,10 @@ module.exports = function (RED) {
         amqp: require('azure-iot-device-amqp').Amqp,
         mqtt: require('azure-iot-device-mqtt').Mqtt,
         http: require('azure-iot-device-http').Http,
-        amqpWs: require('azure-iot-device-amqp-ws').AmqpWs
+        amqpWs: require('azure-iot-device-amqp').AmqpWs
     };
 
-    var EventHubClient = require('azure-event-hubs').Client;
+    var EventHubClient = require('@azure/event-hubs').Client;
 
     var client = null;
     var clientConnectionString = "";

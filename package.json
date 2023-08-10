@@ -1,19 +1,20 @@
 {
-  "name": "node-red-contrib-azure-iot-hub",
+  "name": "@nodecolor/node-red-contrib-azure-iot-hub",
   "description": "Connector to azure on Node-Red",
-  "version": "0.4.0",
+  "version": "0.5.3",
+  "license": "Apache-2.0",
+  "homepage": "https://node-professional.com/",
   "engines": {
     "node": ">=0.10.0"
   },
   "dependencies": {
-    "azure-event-hubs": "0.0.8",
-    "azure-iot-device": "<=1.0.14",
-    "azure-iot-device-amqp": "<=1.0.14",
-    "azure-iot-device-amqp-ws": "<=1.0.14",
-    "azure-iot-device-http": "<=1.0.14",
-    "azure-iot-device-mqtt": "<=1.0.14",
-    "azure-iothub": "^1.2.3",
-    "is-property": "<=1.0.2"
+    "@azure/event-hubs": "^5.8.0",
+    "azure-iot-device": "^1.18.1",
+    "azure-iot-device-amqp": "^1.14.1",
+    "azure-iot-device-http": "^1.14.1",
+    "azure-iot-device-mqtt": "^1.16.1",
+    "azure-iothub": "^1.16.1",
+    "is-property": "^1.0.2"
   },
   "keywords": [
     "node-red",
@@ -27,14 +28,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/lcarli/NodeRedIoTHub"
+    "url": "git+https://github.com/nodecolor/node-red-contrib-azure-iot-hub.git"
   },
-  "author": {
-    "name": "Lucas Humenhuk",
-    "email": "luhumenh@microsoft.com",
-    "url": "http://nodered.org"
-  },
+  "author": "Lucas Humenhuk <luhumenh@microsoft.com> (https://github.com/nodecolor/node-red-contrib-azure-iot-hub)",
   "contributors": [
-    "Olli Kasari <8488349+kasarol@users.noreply.github.com>"
-  ]
+    "Olli Kasari <8488349+kasarol@users.noreply.github.com>",
+    "Lucas Humenhuk <luhumenh@microsoft.com>",
+    "nodecolor <https://node-professional.com/>"
+  ],
+  "bugs": {
+    "url": "https://github.com/nodecolor/node-red-contrib-azure-iot-hub/issues"
+  },
+  "main": "azureiothub.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
