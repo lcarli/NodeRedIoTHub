@@ -35,6 +35,8 @@ module.exports = function (RED) {
         node.log('Sending Message to Azure IoT Hub :\n   Payload: ' + JSON.stringify(data));
         // Create a message and send it to the IoT Hub every second
         var message = new Message(JSON.stringify(data));
+        message.contentType = "application/json";
+        message.contentEncoding = "utf-8";
         client.sendEvent(message, function (err, res) {
             if (err) {
                 node.error('Error while trying to send message:' + err.toString());
